@@ -19,14 +19,15 @@ export default function Home() {
               🧪 Mr. Abdallah Ashraf
             </h1>
             <div className="flex gap-4">
-               {/* زرار واتساب في القائمة العلوية */}
+              {/* زرار واتساب في القائمة */}
               <a href="https://wa.me/201005241637" target="_blank" className="flex items-center gap-1 hover:text-green-500 transition font-medium">
                 <span>💬</span> <span className="hidden md:inline">واتساب</span>
               </a>
               <a href="https://youtube.com/@mr.abdallahashraf-chemistr9370" target="_blank" className="flex items-center gap-1 hover:text-red-500 transition font-medium">
                 <span>📺</span> <span className="hidden md:inline">يوتيوب</span>
               </a>
-              <a href="https://www.facebook.com/Mr.Abdallah.Ashraf.chemistry.teacher" target="_blank" className="flex items-center gap-1 hover:text-blue-500 transition font-medium">
+              {/* ✅ لينك الفيسبوك الجديد ✅ */}
+              <a href="https://www.facebook.com/share/17nkcAHREd/" target="_blank" className="flex items-center gap-1 hover:text-blue-500 transition font-medium">
                 <span>📘</span> <span className="hidden md:inline">فيسبوك</span>
               </a>
             </div>
@@ -38,7 +39,7 @@ export default function Home() {
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-cyan-500/10 rounded-full blur-3xl -z-10"></div>
 
           <div className="mb-8 inline-block p-1 rounded-full bg-gradient-to-tr from-cyan-400 to-blue-600">
-             {/* تأكد ان الصورة دي موجودة في فولدر public */}
+            {/* تأكد ان الصورة في فولدر public */}
             <img 
               src="/mr-abdallah.jpg" 
               alt="Mr. Abdallah Ashraf" 
@@ -64,7 +65,7 @@ export default function Home() {
               <span>▶️</span> اشترك في القناة
             </a>
             
-            {/* ✅ زرار الواتساب الجديد ✅ */}
+            {/* زرار تواصل واتساب */}
             <a 
               href="https://wa.me/201005241637" 
               target="_blank"
